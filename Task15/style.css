@@ -1,0 +1,268 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: DMSans;
+    src: url(./fonts/DMSans-Regular.ttf);
+}
+
+@font-face {
+    font-family: Mulish;
+    src: url(./fonts/Mulish-Regular.ttf);
+}
+
+body {
+    font-family: DMSans;
+}
+
+header {
+    padding: 30px 0;
+}
+
+header .row {
+    display: flex;
+    align-items: center;
+}
+
+header .col {
+    display: flex;
+    align-items: center;
+}
+
+header ul {
+    list-style: none;
+}
+
+header li {
+    display: inline-block;
+    margin: 0px 24.5px;
+    padding: 10px 0;
+}
+
+header a {
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 20px;
+    color: #696871;
+    border-bottom: 2px solid transparent;
+    transition: 0.5s;
+}
+
+header a:hover {
+    border-bottom-color: #5454D4;
+    color: #19191B;
+}
+
+header button {
+    font-weight: bold;
+    font-size: 17px;
+    line-height: 22px;
+    color: white;
+    padding: 19px 60px;
+    background-color: #FF7143;
+    border-radius: 10px;
+    border-color: transparent;
+}
+
+.button-col {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.menu-col {
+    display: flex;
+    justify-content: center;
+}
+
+.intro-section {
+    padding: 70px 0;
+}
+
+.intro-section .row {
+    display: flex;
+    align-items: center;
+}
+
+.intro-section h1 {
+    font-weight: bold;
+    font-size: 80px;
+    line-height: 77px;
+    letter-spacing: -2.50105px;
+    color: #19191B;
+    margin-bottom: 30px;
+}
+
+.intro-section h2 {
+    font-family: Mulish;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: -0.625263px;
+    color: #696871;
+    margin-bottom: 50px;
+}
+
+.intro-section button {
+    font-weight: bold;
+    font-size: 17px;
+    line-height: 22px;
+    color: white;
+    padding: 19px 60px;
+    border-radius: 10px;
+    border-color: transparent;
+    background-color: #5454D4;
+}
+
+.hero-col {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.arrow {
+    display: inline-block;
+    padding: 19px;
+    border: 1px solid #E7E7E7;
+    border-radius: 50%;
+    margin-left: 40px;
+    cursor: pointer;
+}
+
+.logos-section {
+    padding: 30px 0;
+}
+
+.logos-col {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.subscription-index {
+    padding: 125px 0 40px 0;
+}
+
+.subscription-index .row,
+.in-depth .row {
+    display: flex;
+    align-items: center;
+}
+
+.subscription-index h1,
+.in-depth h1 {
+    font-weight: bold;
+    font-size: 50px;
+    line-height: 57px;
+    letter-spacing: -1.56316px;
+    color: #19191B;
+    margin-bottom: 30px;
+}
+
+.subscription-index h2,
+.in-depth h2 {
+    font-family: Mulish;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: -0.625263px;
+    color: #696871;
+    margin-bottom: 30px;
+}
+
+.subscription-index a,
+.in-depth a {
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 17px;
+    line-height: 22px;
+    letter-spacing: -0.531474px;
+    color: #5454D4;
+}
+
+.in-depth {
+    padding: 40px 0;
+    margin-top: 110px;
+}
+
+.noname {
+    text-align: center;
+    margin-top: 98px;
+    margin-bottom: 150px;
+}
+
+.noname img {
+    width: 151px;
+}
+
+.noname h1 {
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: center;
+    letter-spacing: -0.750316px;
+    color: #19191B;
+    margin-top: 7px;
+    margin-bottom: 20px;
+}
+
+.noname h2 {
+    font-family: Mulish;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: -0.500211px;
+    color: #696871;
+}
+
+.option {
+    padding: 0 70px;
+}
+
+.weekly-monthly h1 {
+    font-weight: bold;
+    font-size: 60px;
+    line-height: 70px;
+    letter-spacing: -1.87579px;
+    color: #19191B;
+}
+
+.yearly,
+.monthly {
+    height: 55px;
+    width: 160px;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 21px;
+    text-align: center;
+    letter-spacing: -0.500211px;
+}
+
+.yearly{
+    border: none;
+    border-radius: 10px 0 0 10px;
+    background-color: #5454D4;
+    color: white;
+}
+
+.monthly{
+    border: none;
+    background-color: transparent;
+    color: #19191B;
+}
+
+.btn-col {
+    padding: 5px 6px;
+    width: 344px;
+    height: 65px;
+    background: #F7F7FB;
+    border-radius: 10px;
+}
+
+.weekly-monthly .row{
+    display: flex;
+    align-items: center;
+}

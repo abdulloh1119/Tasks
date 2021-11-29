@@ -1,0 +1,304 @@
+@font-face {
+    font-family: Roboto;
+    src: url(./fonts/Roboto-Regular.ttf);
+}
+
+body {
+    font-family: Roboto;
+}
+
+nav {
+    background-color: #0F1035;
+}
+
+nav .row {
+    padding: 0;
+}
+
+.nav-col {
+    padding: 0;
+}
+
+.nav-col:last-child {
+    padding-right: 80px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0 0 0 80px;
+    padding: 20px 0;
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 18px;
+    color: #FFFFFF;
+}
+
+header {}
+
+header ul {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 0;
+    margin-right: 210px;
+}
+
+header li {
+    display: inline-block;
+    padding: 27px 0;
+}
+
+header a {
+    margin-left: 80px;
+}
+
+header li a {
+    text-decoration: none;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 18px;
+    color: #000000;
+    margin: 0 0 0 30px;
+}
+
+.section-header {
+    background-color: #D3F1F3;
+}
+
+.section-header h3 {
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+    color: #000000;
+    margin: 21px 5px 21px 0;
+}
+
+.section-header a {
+    text-decoration: none;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    color: #000000;
+}
+
+.section-header img {
+    margin-left: 7px;
+}
+
+.section-main {
+    background-image: url(./images/background.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+}
+
+.section-main h1 {
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 48px;
+    color: #000000;
+    margin: 33px 0 12px 0;
+}
+
+.section-main h2 {
+    font-weight: normal;
+    font-size: 27px;
+    line-height: 40px;
+    color: #000000;
+    margin: 0 0 316px 0;
+}
+
+.input-div {
+    margin-bottom: 41px;
+}
+
+.section-main input {
+    padding: 13px 22px;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    width: 340px;
+    margin: 0 32px 0 0;
+}
+
+.section-main input::placeholder {
+    color: rgba(0, 0, 0, 0.2);
+}
+
+.section-main button,
+.section-middle button {
+    padding: 13px 26px;
+    background-color: #190083;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FFFFFF;
+}
+
+.section-main button:hover,
+.section-middle button:hover {
+    color: yellow;
+}
+
+.section-middle h1 {
+    margin: 92px 0 53px 0;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 48px;
+    text-align: center;
+    color: #000000;
+    padding: 0 150px;
+}
+
+.section-middle h2 {
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 32px;
+    text-align: center;
+    color: #000000;
+    margin: 0 0 81px 0;
+}
+
+.section-middle h3 {
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 24px;
+    color: #000000;
+    margin: 35px 0 20px 0;
+}
+
+.section-middle h4 {
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 28px;
+    color: #000000;
+    padding: 0 65px;
+}
+
+.button-col {
+    margin: 78px 0 110px 0;
+    padding: 0;
+}
+
+.section-middle button {
+    padding: 13px 26px;
+    background-color: #190083;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FFFFFF;
+}
+
+.section-ibm {
+    background-image: url(./images/bacground2.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.section-ibm h1 {
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 48px;
+    color: #000000;
+    margin: 0;
+}
+
+.experience-row {
+    padding: 111px 0 0 0;
+    margin: 0 0 279px 0;
+}
+
+.ibm-col {
+    background-color: #FFFFFF;
+    height: 256px;
+    margin-bottom: 162px;
+    margin-left: 190px;
+    padding: 0;
+}
+
+.ibm-logo {
+    width: 100px;
+    height: 100px;
+    margin-right: 50px;
+}
+
+.section-ibm .ibm-logo img {
+    width: 100%;
+}
+
+.section-ibm .item-div {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.section-ibm .item-div h2 {
+    font-weight: bold;
+    font-size: 21px;
+    line-height: 42px;
+    color: #000000;
+}
+
+.section-ibm .owl-dots {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    top: 292px;
+}
+
+.section-ibm .owl-div {
+    padding: 67px 0 0 70px;
+}
+
+.section-ibm .owl-dot {
+    width: 15px;
+    height: 15px;
+    margin: 0 9px;
+}
+
+.section-ibm .owl-dot span {
+    width: 15px !important;
+    height: 15px !important;
+    border: 2px solid white;
+    background-color: transparent !important;
+    margin: 0 !important;
+}
+
+.section-ibm .owl-dots .active {
+    background-color: white;
+    border-radius: 50%;
+}
+
+.section-handshake {
+    padding: 106px 0 111px 0;
+    margin: 0;
+}
+
+.section-handshake h1 {
+    font-weight: bold;
+    font-size: 40px;
+    color: #000000;
+    margin: 0 0 40px 0;
+}
+
+.section-handshake h2 {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 32px;
+    color: #000000;
+    margin: 0 0 100px 0;
+}
+
+.item-handshake img{
+    width: 100px;
+}

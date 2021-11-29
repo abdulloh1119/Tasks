@@ -1,0 +1,49 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: DMSans;
+    src: url(./fonts/DMSans-Regular.ttf);
+}
+
+@font-face {
+    font-family: Mulish;
+    src: url(./fonts/Mulish-Regular.ttf);
+}
+
+body {
+    font-family: DMSans;
+}
+
+header ul {
+    list-style: none;
+}
+
+header li {
+    display: inline-block;
+    margin: 0 25px;
+}
+
+header li a {
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 20px;
+    color: #696871;
+    padding-bottom: 10px 0;
+    border: 2px solid transparent;
+    transition: 0.5s;
+}
+
+header li a:hover {
+    border-bottom-color: #5454D4;
+    color: #19191B;
+}
+
+header .row{
+    display: flex;
+    align-items: center;
+}

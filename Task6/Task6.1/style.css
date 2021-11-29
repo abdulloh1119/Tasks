@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+input{
+    display: none;
+}
+
+@font-face {
+    font-family: Merriweather-Regular;
+    src: url(./fonts/Merriweather-Regular.ttf);
+}
+
+@font-face {
+    font-family: Merriweather-Bold;
+    src: url(./fonts/Merriweather-Bold.ttf);
+}
+
+.container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.question{
+    font-family: Merriweather-Regular;
+    font-size: 30px;
+    color: #777;
+    display: block;
+}
+
+.big, .small{
+    display: flex;
+    justify-content: space-between;
+    width: 1000px;
+}
+
+.big{
+    margin: 30px 0;
+}
+
+.tashkent, .samarkand, .khiva, .bukhara, .urgench{
+    height: 250px;
+    background-size: cover;
+    background-position: center bottom;
+    border: 3px solid white;
+}
+
+.tashkentinfo, .samarkandinfo, .khivainfo, .bukharainfo, .urgenchinfo{
+    height: 100%;
+    width: 100%;
+    color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Merriweather-Regular;
+}
+
+.tashkent{
+    background-image: url(./image/tashkent.jpg);
+    width: 487.5px;   
+}
+
+.samarkand{
+    background-image: url(./image/samarkand.jpg);
+    width: 487.5px;
+}
+
+.khiva{
+    background-image: url(./image/khiva.jpg);
+    width: 316px;
+}
+
+.bukhara{
+    background-image: url(./image/bukhara.jpg);
+    width: 316px;
+}
+
+.urgench{
+    background-image: url(./image/urgench.jpg);
+    width: 316px;
+}
+
+.tashkent:hover > .tashkentinfo, .samarkand:hover > .samarkandinfo, .khiva:hover > .khivainfo, .bukhara:hover > .bukharainfo, .urgench:hover > .urgenchinfo{
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.5);
+    transition: 1s;
+    color: white;
+
+}
+
+.results{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 30px;
+}
+
+.results a{
+    padding: 10px 40px;
+    color: white;
+    font-size: 25px;
+    background-color: #222;
+    text-decoration: none;
+    font-family: Merriweather-Regular;
+}
+
+#tashkent:checked + label .tashkent, #samarkand:checked + label .samarkand, #khiva:checked + label .khiva, #bukhara:checked + label .bukhara, #urgench:checked + label .urgench{
+    border-color: red;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+}
+
+#tashkent:checked + label .tashkentinfo, #samarkand:checked + label .samarkandinfo, #khiva:checked + label .khivainfo, #bukhara:checked + label .bukharainfo, #urgench:checked + label .urgenchinfo{
+    border-color: red;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+}

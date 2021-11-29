@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+    font-family: sans-serif;
+}
+
+.container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #000F26;
+    width: 1200px;
+    min-height: 100px;
+    display: flex;
+    padding: 30px;
+    justify-content: space-between;
+}
+
+img{
+    border-radius: 5px;
+    width: 350px;
+}
+
+h2{
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.reviews{
+    display: flex;
+    align-items: center;
+    mask-border: 40px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.reviews p{
+    margin-left: 20px;
+    display: inline-block;
+}
+
+.star{
+    width: 18px;
+    margin-right: 5px;
+}
+
+.btn{
+    background-color: transparent;
+    height: 45px;
+    width: 200px;
+    border: 2px solid #F3363D;
+    border-radius: 5px;
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.btn:hover{
+    background-color: #F3363D;
+    transition: 0.5s;
+    cursor: pointer;
+}

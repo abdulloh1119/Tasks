@@ -1,0 +1,301 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: Roboto;
+    src: url(./fonts/Roboto-Regular.ttf);
+}
+
+body {
+    font-family: Roboto;
+}
+
+header {
+    text-align: center;
+}
+
+.text-col {
+    padding: 10px;
+    background-color: #A6672B;
+}
+
+.text-col p,
+.text-col2 p {
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 21px;
+    color: #FFFEF2;
+    margin-bottom: 0;
+}
+
+.text-col2 {
+    padding: 11px;
+    background-color: #252525;
+}
+
+.main-section {
+    background-image: url(./images/background-section-main.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.main-section ul {
+    list-style: none;
+    margin-bottom: 0;
+    padding-left: 0;
+    margin-top: 34px;
+    margin-bottom: 0;
+    margin-left: 50px;
+}
+
+.main-section li {
+    display: inline-block;
+    margin-right: 25px;
+}
+
+.main-section li:first-child {
+    margin-right: 40px;
+}
+
+.main-section a {
+    text-decoration: none;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    color: #FFFEF2;
+}
+
+.main-section h1 {
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 40px;
+    color: #FFFEF2;
+    margin-bottom: 16px;
+}
+
+.main-section h2 {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 27px;
+    color: #FFFEF2;
+    margin-bottom: 0;
+}
+
+.h-row {
+    height: 447px;
+}
+
+.h-col {
+    padding-right: 50px;
+    padding-left: 0;
+    margin-bottom: 0;
+    margin-left: 240px;
+}
+
+.ul-col {
+    padding-right: 0;
+}
+
+.ul-col ul {
+    padding-right: 0;
+    margin-right: 40px;
+}
+
+.ul-col li {
+    display: inline-block;
+    margin-right: 0 !important;
+    margin-left: 30px;
+}
+
+.order-row {
+    height: 720px;
+}
+
+.photo-col {
+    background-image: url(./images/order-photo.png);
+    background-size: cover;
+    background-position: center bottom;
+    background-repeat: no-repeat;
+}
+
+.ad {
+    width: 400px;
+}
+
+.ad h1 {
+    font-weight: normal;
+    font-size: 28px;
+    line-height: 40px;
+    color: #333333;
+    margin-bottom: 20px;
+}
+
+.ad h2 {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    color: #333333;
+}
+
+.ad h3 {
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 22px;
+    color: #333333;
+    margin-bottom: 26px;
+}
+
+.order-section {
+    background-color: #CFC7C0;
+}
+
+.order-section button {
+    padding: 20px;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 14px;
+}
+
+.black-btn {
+    color: #F6F5E8;
+    margin-bottom: 20px;
+    background-color: #333;
+}
+
+.light-btn {
+    color: #333333;
+    border: 1px solid #333;
+}
+
+.light-btn img {
+    margin-left: 84px;
+    right: 24px;
+}
+
+.order-text {
+    position: absolute;
+    top: 40px;
+    right: 40px;
+}
+
+.order-text a {
+    border-bottom: 1px solid #333;
+    padding-bottom: 3px;
+    text-decoration: none;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    color: #333333;
+}
+
+.product-section {
+    padding: 100px 0 50px 0;
+    background-color: #FFFEF2;
+}
+
+.product-section .colas {
+    text-align: center;
+}
+
+.product-section h3 {
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: center;
+    color: #333333;
+    margin-top: 9px;
+}
+
+.line-col {
+    margin-top: 50px;
+    padding: 0 80px;
+}
+
+.line {
+    width: 100%;
+    border: 1px solid black;
+}
+
+.big-section {
+    padding: 190px 0;
+    background-color: #FFFEF2;
+    ;
+}
+
+.big-section h1 {
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    color: #333333;
+    margin-bottom: 24px;
+}
+
+.big-section h2 {
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 40px;
+    color: #333333;
+    margin-bottom: 27px;
+}
+
+.big-section h3 {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 27px;
+    color: #333333;
+    margin-bottom: 26px;
+}
+
+.big-section button {
+    padding: 20px 24px;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+    color: #333333;
+    background-color: #FFFEF2;
+    border: none;
+    border: 1px solid rgba(51, 51, 51, 0.2);
+}
+
+.big-section button img {
+    margin-left: 23px;
+}
+
+.img-div {
+    background-image: url(./images/imgdiv.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 507px;
+    margin-right: 0;
+    width: 840px;
+}
+
+.element-col {
+    padding-left: 80px;
+    padding-right: 45px;
+}
+
+.small-section {
+    background-color: #FFFEF2;;
+}
+
+.small-section h1 {
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 40px;
+    color: #333333;
+    margin-bottom: 27px;
+}
+
+.small-section h2 {
+    ont-weight: normal;
+    font-size: 16px;
+    line-height: 27px;
+    color: #333333;
+    margin-bottom: 53px;
+}
